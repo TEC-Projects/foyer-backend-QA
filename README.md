@@ -1,8 +1,8 @@
-#Foyer: Backend system
+# Foyer: Backend system
 
-##How to init the server
-###To run the commands python and its utilitarians must be in Path
-1. Create a virtual environment running 
+## Run server
+### To run the commands python and its utilitarians must be in Path
+ 1. Create a virtual environment running 
 
 `python -m venv C:\${path\to\project\root\folder}\foyer-env`
 2. Activate the vitual enviroment running
@@ -17,18 +17,12 @@
 
 5. The server will be running on [http://localhost:8000/graphql](http://localhost:8000/graphql)
 
-##Database details
+## Database details
 
-The database information is the following
+In order to connect with remote database the host and credentials are the following:
 
-<strong>Host</strong>
+    - Host: `foyer-db.c9nvwxa5rwfa.us-east-2.rds.amazonaws.com`
+    
+    - Username: `admin`
 
-`foyer-db.c9nvwxa5rwfa.us-east-2.rds.amazonaws.com`
-
-<strong>Username</strong>
-
-`admin`
-
-<strong>Password</strong>
-
-`Foyer123#`
+    - Password: `Foyer123#`
