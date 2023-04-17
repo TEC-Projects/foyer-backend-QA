@@ -12,8 +12,6 @@
 
 In order to connect with remote database the host and credentials are the following:
 
-    - Host: `foyer-db.c9nvwxa5rwfa.us-east-2.rds.amazonaws.com`
-    
+    - Host: `foyer-db.c9nvwxa5rwfa.us-east-2.rds.amazonaws.com` 
     - Username: `admin`
-
     - Password: `Foyer123#`
